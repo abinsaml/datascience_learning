@@ -5,10 +5,10 @@ from datetime import datetime
 from kafka import KafkaConsumer
 import mysql.connector
 
-TOPIC='toll'
-DATABASE = 'tolldata'
-USERNAME = 'root'
-PASSWORD = 'MTQ1NDctc2FtbGFi'
+TOPIC='topic_name'
+DATABASE = 'DB_name'
+USERNAME = 'uname'
+PASSWORD = 'password'
 
 print("Connecting to the database")
 try:
